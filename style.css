@@ -1,25 +1,48 @@
-h1{
+*{
+    box-sizing: border-box;
+}
+
+#logo{
     border: solid;
     background-color: peachpuff;
-    font-size: 40px;
-    position: relative;
-    bottom: 27px;
+    font-size: 50px;
+    margin-top: -8px;
+    margin-bottom: 54px; 
+    margin-right: -8px;
+    margin-left: -8px;
+    border-width: 3.5px;
+    text-align: center;
+    display: block;
+    font-family: 'Cookie', cursive; 
 }
 
 body{
     background-color: peachpuff;
 }
 
-h2{
+.title{
     font-size: 35px;
     position: relative;
-    bottom: 40px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    font-family: 'Brush Script MT',cursive;  
+    margin-left: 180px;       
 }
 
-ul{
+.recipes li{
     font-size: 25px;
     size: 25px;
     position: relative;
     bottom: 60px;
     font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+    display: inline;
+    border: solid;
+    padding: 10px 50px;
+    margin-left: 60px;
+    margin-right: -50px;
+}
+
+ul li .desc{
+    color: brown;
+    display: inline-block;
 }
