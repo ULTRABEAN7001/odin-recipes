@@ -24,25 +24,31 @@ body{
     font-size: 35px;
     position: relative;
     margin-top: -50px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-family: 'Brush Script MT',cursive;  
-    margin-left: 180px;       
+    margin-left: 400px;       
 }
 
-.recipes li{
+.recipes{
     font-size: 25px;
-    size: 25px;
+    width: 400px;
     position: relative;
-    bottom: 60px;
     font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
-    display: inline;
+    display: block;
     border: solid;
-    padding: 10px 50px;
-    margin-left: 60px;
-    margin-right: -50px;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
 }
 
-ul li .desc{
-    color: brown;
-    display: inline-block;
+img{
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
 }
+
